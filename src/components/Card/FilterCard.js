@@ -8,8 +8,8 @@ export default function FilterCard() {
             if (x !== null) {
                 if (c == "all") c = "";
                 for (i = 0; i < x.length; i++) {
-                    RemoveClass(x[i], "show");
-                    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+                    RemoveClass(x[i], "block");
+                    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "block");
                 }
             }
         }
@@ -40,12 +40,15 @@ export default function FilterCard() {
     
     return (
         <>
-            <div id="btnContainer">
-                <button className="btn-short active" onClick={() => filterSelection('all')}> Show all</button>
-                <button className="btn-short" onClick={() => filterSelection('Python')}> Python</button>
-                <button className="btn-short" onClick={() => filterSelection('JavaScript')}> JavaScript</button>
-                <button className="btn-short" onClick={() => filterSelection('English')}> English</button>
-                <button className="btn-short" onClick={() => filterSelection('Economy')}> Economy</button>
+            <div id="btnContainer" className="m-1 flex justify-center flex-wrap">
+                <button className="mt-3 mr-3 text-white bg-principal hover:bg-principal focus:ring-4 focus:outline-none focus:ring-principal font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-color2 dark:hover:bg-principal dark:focus:ring-principal active" onClick={() => filterSelection('all')}> Mostrar Todo</button>
+
+                <button className="mt-3 mr-3 text-white bg-principal hover:bg-principal focus:ring-4 focus:outline-none focus:ring-principal font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-color2 dark:hover:bg-principal dark:focus:ring-principal" onClick={() => filterSelection('Estudio')}> Pre Inversión</button>
+
+                <button className="mt-3 mr-3 text-white bg-principal hover:bg-principal focus:ring-4 focus:outline-none focus:ring-principal font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-color2 dark:hover:bg-principal dark:focus:ring-principal" onClick={() => filterSelection('Inversion')}> Inversión</button>
+
+                <button className="mt-3 mr-3 text-white bg-principal hover:bg-principal focus:ring-4 focus:outline-none focus:ring-principal font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-color2 dark:hover:bg-principal dark:focus:ring-principal" onClick={() => filterSelection('IOARR')}> IOARR</button>
+               
             </div >
         </>
     )
