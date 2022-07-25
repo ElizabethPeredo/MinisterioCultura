@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+module.exports = {
+  webpack(config, { dev }) {
+    // modify it!
+    return config;
+  }
 }
-
-module.exports = nextConfig
