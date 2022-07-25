@@ -4,7 +4,6 @@ import path from 'path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
 import PostContainer from '../../src/containers/PostContainer/PostContainer'
-import Script from 'next/script'
 
 export default function PostPage({
     frontmatter: { title, date, cover_image },
