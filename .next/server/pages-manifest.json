@@ -4,8 +4,8 @@
   "/Home": "pages/Home.html",
   "/api/hello": "pages/api/hello.js",
   "/": "pages/index.html",
-  "/Blog": "pages/Blog.js",
   "/_document": "pages/_document.js",
+  "/Blog": "pages/Blog.js",
   "/blog/[slug]": "pages/blog/[slug].js",
   "/404": "pages/404.html"
 }

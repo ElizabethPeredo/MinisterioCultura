@@ -5,7 +5,7 @@ exports.id = 820;
 exports.ids = [820];
 exports.modules = {
 
-/***/ 7345:
+/***/ 9185:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -32,9 +32,10 @@ function _getInitialProps({ res , err  }) {
         statusCode
     };
 }
-class Error extends _react.default.Component {
+var _Component;
+class Error extends (_Component = _react.default.Component) {
     render() {
-        const { statusCode  } = this.props;
+        const { statusCode , withDarkMode =true  } = this.props;
         const title = this.props.title || statusCodes[statusCode] || "An unexpected error has occurred";
         return /*#__PURE__*/ _react.default.createElement("div", {
             style: styles.error
@@ -45,12 +46,13 @@ class Error extends _react.default.Component {
                 .next-error-h1 {
                   border-right: 1px solid rgba(0, 0, 0, .3);
                 }
-                @media (prefers-color-scheme: dark) {
+                
+                ${withDarkMode ? `@media (prefers-color-scheme: dark) {
                   body { color: #fff; background: #000; }
                   .next-error-h1 {
                     border-right: 1px solid rgba(255, 255, 255, .3);
                   }
-                }`
+                }` : ""}`
             }
         }), statusCode ? /*#__PURE__*/ _react.default.createElement("h1", {
             className: "next-error-h1",
@@ -62,7 +64,6 @@ class Error extends _react.default.Component {
         }, this.props.title || statusCode ? title : /*#__PURE__*/ _react.default.createElement(_react.default.Fragment, null, "Application error: a client-side exception has occurred (see the browser console for more information)"), "."))));
     }
 }
-exports["default"] = Error;
 Error.displayName = "ErrorPage";
 Error.getInitialProps = _getInitialProps;
 Error.origGetInitialProps = _getInitialProps;
@@ -99,7 +100,8 @@ const styles = {
         margin: 0,
         padding: 0
     }
-}; //# sourceMappingURL=_error.js.map
+};
+exports["default"] = Error; //# sourceMappingURL=_error.js.map
 
 
 /***/ }),
@@ -125,7 +127,7 @@ module.exports = require("react");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(7345));
+var __webpack_exports__ = (__webpack_exec__(9185));
 module.exports = __webpack_exports__;
 
 })();

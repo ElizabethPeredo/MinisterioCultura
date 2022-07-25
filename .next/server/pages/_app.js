@@ -4,7 +4,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 460:
+/***/ 1187:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -144,7 +144,7 @@ function Footer() {
                         /*#__PURE__*/ jsx_runtime_.jsx("a", {
                             href: "",
                             className: "hover:underline",
-                            children: "Unidad Ejecutora 008\u2122"
+                            children: "Unidad Ejecutora 008™"
                         }),
                         ". All Rights Reserved."
                     ]
@@ -211,6 +211,14 @@ fontawesome_svg_core_namespaceObject.config.autoAddCss = false;
 /***/ (() => {
 
 
+
+/***/ }),
+
+/***/ 3280:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/app-router-context.js");
 
 /***/ }),
 
@@ -286,6 +294,22 @@ module.exports = require("next/dist/shared/lib/router-context.js");
 
 /***/ }),
 
+/***/ 1751:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
+
+/***/ }),
+
+/***/ 299:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-next-pathname-info.js");
+
+/***/ }),
+
 /***/ 3938:
 /***/ ((module) => {
 
@@ -302,11 +326,11 @@ module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-
 
 /***/ }),
 
-/***/ 4365:
+/***/ 5789:
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/shared/lib/router/utils/get-middleware-regex.js");
+module.exports = require("next/dist/shared/lib/router/utils/get-next-pathname-info.js");
 
 /***/ }),
 
@@ -318,6 +342,14 @@ module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
 
 /***/ }),
 
+/***/ 8854:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
+
+/***/ }),
+
 /***/ 1292:
 /***/ ((module) => {
 
@@ -326,11 +358,27 @@ module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.j
 
 /***/ }),
 
+/***/ 4567:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix.js");
+
+/***/ }),
+
 /***/ 979:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
+
+/***/ }),
+
+/***/ 3297:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
 
 /***/ }),
 
@@ -389,7 +437,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [505,664,675], () => (__webpack_exec__(460)));
+var __webpack_exports__ = __webpack_require__.X(0, [952,664,675], () => (__webpack_exec__(1187)));
 module.exports = __webpack_exports__;
 
 })();
