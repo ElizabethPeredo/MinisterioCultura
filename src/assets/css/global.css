@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -50,6 +51,7 @@
     overflow-x: hidden;
     scroll-padding-top: 5rem;
     scroll-behavior: smooth;
+    font-family: 'Poppins','Open Sans', 'Roboto', sans-serif;
   }
 
   body {
@@ -328,12 +330,16 @@ table {
   }
 }
 
-.show {
-    display: block;
-  }
+
 /* =================
 * CARD TAG *
 =================*/
+.card-post{
+  display: none;
+}
+.show {
+  display: block;
+}
 .Inversion .card-tag{
     background: var(--green);
     @apply text-principal shadow-lg;

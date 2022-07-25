@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'; //importing font awesome 
 import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
 import '../src/assets/css/global.css'
-import 'tailwindcss/tailwind.css';
+/*import 'tailwindcss/tailwind.css';*/
 
 function MyApp({ Component, pageProps }) {
  

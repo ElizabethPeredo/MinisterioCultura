@@ -8,8 +8,8 @@ export default function FilterCard() {
             if (x !== null) {
                 if (c == "all") c = "";
                 for (i = 0; i < x.length; i++) {
-                    RemoveClass(x[i], "block");
-                    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "block");
+                    RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
                 }
             }
         }

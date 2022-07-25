@@ -1,7 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons"
 
 export default function Modal() {
     function ModalImg() {

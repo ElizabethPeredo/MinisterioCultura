@@ -5,7 +5,7 @@ import { faTwitter, faFacebook } from "@fortawesome/free-brands-svg-icons"
 
 export default function Footer() {
   return (
-      <footer className="p-4 bg-white sm:p-6 dark:bg-principal block">
+      <footer className="p-4 bg-white shadow-lg shadow-black sm:p-6 dark:bg-principal block">
         <div className="flex flex-col items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="" className="hover:underline">Unidad Ejecutora 008™</a>. All Rights Reserved.
           </span>

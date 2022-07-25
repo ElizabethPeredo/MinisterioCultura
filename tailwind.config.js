@@ -2,6 +2,7 @@
 const plugin = require('tailwindcss/plugin')
 
 module.exports = {
+  darkMode: 'class',
   corePlugins: {
     preflight: true,
   },
@@ -12,17 +13,25 @@ module.exports = {
     "./src/containers/**/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    minWidth: {
+      '1/2': '50%',
+      'xl': '36rem',
+      '2xl': '42rem',
+      '3xl': '48rem',
+      '4xl': '56rem',
+    },
     
     extend: {
       colors: {
         "principal": "#01161e",
-        "color1": "#bdd5ea",
+        "color1": "#9abfdf",
         "color2": "#ba181b",
         "txt-color1": "#33415c",
         "txt-color2": "#f2f2f2",
         "hv-color1": "#01161e",
         "hv-color2": "#01161e"
-      }     
+      },
+           
     }
   },
   variants: {},
