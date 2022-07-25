@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="text-gray-500 hover:text-gray-900 dark:hover:text-white"><FontAwesomeIcon className="" icon={faFacebook} /></span>
             </div>
             <div className="">
-              <span className="text-gray-500 hover:text-gray-900 dark:hover:text-white"><FontAwesomeIcon className="" icon={faFacebook} /></span>
+              <span className="text-gray-500 hover:text-gray-900 dark:hover:text-white"><FontAwesomeIcon className="" icon={faTwitter} /></span>
             </div>
           </div>
         </div>
