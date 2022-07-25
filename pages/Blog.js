@@ -45,7 +45,7 @@ export async function getStaticProps() {
       frontmatter,
     }
   })
-  console.log(posts)
+  /*console.log(posts)*/
 
   return {
     props: {
