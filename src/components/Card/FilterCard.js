@@ -49,7 +49,7 @@ export default function FilterCard() {
 
                 <button className="mt-3 mr-3 text-white bg-principal hover:bg-principal focus:ring-4 focus:outline-none focus:ring-principal font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-color2 dark:hover:bg-principal dark:focus:ring-principal" onClick={() => filterSelection('IOARR')}> IOARR</button>
 
-                <button className="mt-3 mr-3 text-white bg-principal hover:bg-principal focus:ring-4 focus:outline-none focus:ring-principal font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-color2 dark:hover:bg-principal dark:focus:ring-principal" onClick={() => filterSelection('IOARR')}> Programa</button>
+                <button className="mt-3 mr-3 text-white bg-principal hover:bg-principal focus:ring-4 focus:outline-none focus:ring-principal font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-color2 dark:hover:bg-principal dark:focus:ring-principal" onClick={() => filterSelection('Programa')}> Programa</button>
                
             </div >
         </>

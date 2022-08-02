@@ -349,7 +349,7 @@ table {
     @apply text-principal shadow-lg;
 }
 .IOARR .card-tag{
-    background: var(--brown);
+    background: var(--orange);
     @apply text-principal shadow-lg;
 }
 
