@@ -46,22 +46,22 @@ const Pie = ({ percentage }) => {
     var color;
 
     if (pct ==100) {
-        color = '#25C847';
+        color = '#138D75';
     } 
     else if (pct > 85) {
-        color = '#6ED935';
+        color = '#27AE60';
     } 
     else if (pct > 60) {
-        color = '#BFED3F';
+        color = '#58D68D';
     }
     else if (pct > 45) {
-        color = '#FCF022';
+        color = '#F4D03F';
     }
     else if (pct > 30) {
-        color = '#f29371';
+        color = '#F39C12';
     } 
     else {
-        color = '#CB2E2D';
+        color = '#B71C1C';
     }
     return (
         <svg width={200} height={200}>
