@@ -7,10 +7,12 @@ import '../src/assets/css/global.css'
 /*import 'tailwindcss/tailwind.css';*/
 
 function MyApp({ Component, pageProps }) {
- 
+
   return (
     <>
+
       <Navbar />
+      
       <Component {...pageProps} />
       <Footer />
     </>)

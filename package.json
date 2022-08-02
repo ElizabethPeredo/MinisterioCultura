@@ -22,6 +22,7 @@
     "next": "^12.2.3",
     "nuxt-trailingslash-module": "^1.2.0",
     "prismjs": "^1.28.0",
+    "puppeteer": "^15.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-paginate": "^8.1.3",
