@@ -352,3 +352,8 @@ table {
     background: var(--brown);
     @apply text-principal shadow-lg;
 }
+
+.Programa .card-tag{
+  background: var(--light-blue);
+  @apply text-principal shadow-lg;
+}
