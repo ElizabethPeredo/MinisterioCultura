@@ -20,7 +20,7 @@ const Circle = ({ colour, pct }) => {
             strokeWidth={"1rem"}
             strokeDasharray={circ}
             strokeDashoffset={pct ? strokePct : 0}
-            strokeLinecap="round"
+            strokeLinecap="butt"
         ></circle>
     );
 };
@@ -46,16 +46,16 @@ const Pie = ({ percentage }) => {
     var color;
 
     if (pct ==100) {
-        color = '#44bd69';
+        color = '#25C847';
     } 
     else if (pct > 85) {
-        color = '#73bd44';
+        color = '#6ED935';
     } 
     else if (pct > 60) {
-        color = '#abbd44';
+        color = '#BFED3F';
     }
     else if (pct > 45) {
-        color = '#e4df34';
+        color = '#FCF022';
     }
     else if (pct > 30) {
         color = '#f29371';
