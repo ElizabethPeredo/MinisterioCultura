@@ -9,7 +9,10 @@ import { useEffect } from "react"
 import mermaid from "mermaid/dist/mermaid.min.js"
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    mermaid.initialize({startOnLoad:true});
+    mermaid.initialize({
+      startOnLoad:true,
+      theme: 'default',
+    });
   }, [])
 
   return (
