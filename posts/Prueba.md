@@ -38,9 +38,9 @@ gantt
 
 <div class="mermaid">
 pie title Pets adopted by volunteers
-    "Dogs" : 386
-    "Cats" : 85
-    "Rats" : 15
+    "Dogs" : 3
+    "Cats" : 96
+    "Rats" : 1
 </div>
 
 <div class="mermaid">
