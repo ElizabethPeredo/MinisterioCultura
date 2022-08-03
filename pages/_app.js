@@ -5,8 +5,12 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false;
 import '../src/assets/css/global.css'
 /*import 'tailwindcss/tailwind.css';*/
-
+import { useEffect } from "react"
+import mermaid from "mermaid/dist/mermaid.min.js"
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    mermaid.initialize({startOnLoad:true});
+  }, [])
 
   return (
     <>

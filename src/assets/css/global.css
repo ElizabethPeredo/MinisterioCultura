@@ -357,3 +357,19 @@ table {
   background: var(--light-blue);
   @apply text-principal shadow-lg;
 }
+
+.mermaid{
+  overflow-x: auto;
+  width: 100%;
+  height:auto;
+  margin: 0rem;
+  padding: 0em;
+  border-bottom: 1rem solid transparent;
+}
+.mermaid svg{
+  height:auto;
+  margin: 0rem;
+  padding: 0em;
+  min-width: 15rem;
+  max-width: 100%;
+}
