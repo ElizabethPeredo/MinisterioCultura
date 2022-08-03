@@ -1,10 +1,10 @@
 ---
-title: '2001621: ESTUDIOS DE PRE-INVERSION'
-date: 'Agosto 2, 2022'
-type: 'Estudio'
-pim: '82,131'
-avance: '100'
-cover_image: 'https://idesaa.edu.mx/blog/wp-content/uploads/2021/02/roi-en-programas-de-soft-skills-780x450.jpg'
+title: 'Prueba'
+date: ''
+type: ''
+pim: ''
+avance: ''
+cover_image: ''
 ---
 <div class="mermaid">
   graph LR
