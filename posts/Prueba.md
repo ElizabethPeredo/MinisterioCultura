@@ -3,8 +3,8 @@ title: 'Prueba'
 date: ''
 type: ''
 pim: ''
-avance: ''
-cover_image: ''
+avance: '100'
+cover_image: 'https://biolinksperu.com/wp-content/uploads/2020/11/imagen_2021-09-20_133729.png'
 ---
 <div class="mermaid">
   graph LR
